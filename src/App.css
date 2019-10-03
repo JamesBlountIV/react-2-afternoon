@@ -1,0 +1,79 @@
+.nav-container {
+  background: #1b8fee;
+  width: 100vw;
+  height:13vh;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  padding-left: 5vw;
+  font-size: 1.5em;
+  font-weight: 550;
+  text-decoration: none;
+}
+.body {
+  background: #252525;
+  width: 100vw;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.employee {
+  background: rgb(255, 240, 240);
+  height: 50vh;
+  width: 75vw;
+}
+.margin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  height: 45vh;
+  
+}
+h1 {
+  font-size: 2em;
+  position: relative;
+  left: 7vw;
+  text-decoration: #1b8fee underline;
+  font-weight: 600; 
+}
+.margin h3 {
+  font-size: 1.5em;
+  position: relative;
+  left: 7vw;
+}
+.margin h2 {
+  font-size: 2em;
+  font-weight: 850;
+  display: flex;
+  justify-content: flex-end;
+  margin: 2vh;
+}
+
+.margin h3 p {
+  position: relative;
+  left: 3vw;
+}
+
+
+.buttons {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  height: 3vh;
+}
+.btns {
+  background: #252525;
+  color: rgb(255, 240, 240); 
+  font-size: 1.1em;
+  font-weight: 550;
+  margin-top: 1vh;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+.btns:hover {
+  color: #1b8fee;
+
+}
